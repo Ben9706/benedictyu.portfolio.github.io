@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ben9706.github.io/benedictyu.portfolio.github.io</id>
+    <title>竹本一世</title>
+    <updated>2020-06-28T05:55:50.763Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ben9706.github.io/benedictyu.portfolio.github.io"/>
+    <link rel="self" href="https://ben9706.github.io/benedictyu.portfolio.github.io/atom.xml"/>
+    <logo>https://ben9706.github.io/benedictyu.portfolio.github.io/images/avatar.png</logo>
+    <icon>https://ben9706.github.io/benedictyu.portfolio.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[汽车音频系统]]></title>
+        <id>https://ben9706.github.io/benedictyu.portfolio.github.io/post/qi-che-yin-pin-xi-tong/</id>
+        <link href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/qi-che-yin-pin-xi-tong/">
+        </link>
+        <updated>2020-06-21T15:58:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[企业 B 端系统]]></title>
+        <id>https://ben9706.github.io/benedictyu.portfolio.github.io/post/hello-gridea/</id>
+        <link href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+    </entry>
+</feed>
