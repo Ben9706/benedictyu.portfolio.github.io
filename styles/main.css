@@ -992,18 +992,3 @@ td {
         font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
       }
     
-      .site-header .avatar {
-    margin-top: 72px;
-    margin-bottom: 48px;
-    border-radius: 0;
-    width: 400px;
-    height: 80px;
-}
-
-.site-header .site-description {
-    font-size: 16px;
-    padding: 8px;
-    color: #495057;
-    font-weight: lighter;
-}
-    
