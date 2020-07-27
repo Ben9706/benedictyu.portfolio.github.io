@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedictyu.portfolio.github.io</id>
     <title>竹本一世</title>
-    <updated>2020-07-07T13:40:00.409Z</updated>
+    <updated>2020-07-27T10:41:41.379Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedictyu.portfolio.github.io"/>
     <link rel="self" href="https://ben9706.github.io/benedictyu.portfolio.github.io/atom.xml"/>
+    <subtitle>你好，我是一名产品经理。我致力于让所有人类都能拥有良好生活。我关注设计、数据、技术和商业。</subtitle>
     <logo>https://ben9706.github.io/benedictyu.portfolio.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedictyu.portfolio.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[企业 B 端系统]]></title>
+        <id>https://ben9706.github.io/benedictyu.portfolio.github.io/post/hello-gridea/</id>
+        <link href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/hello-gridea/">
+        </link>
+        <updated>2020-07-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>为企业内部做管理系统。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>为企业内部做管理系统。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[汽车音频系统]]></title>
+        <id>https://ben9706.github.io/benedictyu.portfolio.github.io/post/qi-che-yin-pin-xi-tong/</id>
+        <link href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/qi-che-yin-pin-xi-tong/">
+        </link>
+        <updated>2020-06-21T15:58:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[音频类 App]]></title>
+        <id>https://ben9706.github.io/benedictyu.portfolio.github.io/post/yin-pin-lei-app/</id>
+        <link href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/yin-pin-lei-app/">
+        </link>
+        <updated>2019-07-27T05:58:27.000Z</updated>
+    </entry>
 </feed>

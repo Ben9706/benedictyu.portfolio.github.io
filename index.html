@@ -1,98 +1,207 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>竹本一世</title>
-<link rel="shortcut icon" href="https://ben9706.github.io/benedictyu.portfolio.github.io/favicon.ico?v=1594129198849">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://ben9706.github.io/benedictyu.portfolio.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://ben9706.github.io/benedictyu.portfolio.github.io/media/css/tailwind.css">
 <link rel="stylesheet" href="https://ben9706.github.io/benedictyu.portfolio.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="竹本一世 - Atom Feed" href="https://ben9706.github.io/benedictyu.portfolio.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171534117-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-171534117-1');
-</script>
-
-
-    <meta name="description" content="" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://ben9706.github.io/benedictyu.portfolio.github.io">
-  <img class="avatar" src="https://ben9706.github.io/benedictyu.portfolio.github.io/images/avatar.png?v=1594129198849" alt="">
-  </a>
-  <h1 class="site-title">
-    竹本一世
-  </h1>
-  <p class="site-description">
     
-  </p>
-  <div class="menu-container">
+
+  <meta name="description" content="你好，我是一名产品经理。我致力于让所有人类都能拥有良好生活。我关注设计、数据、技术和商业。" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
     
-      
-        <a href="/" class="menu">
-          Portfolio
-        </a>
-      
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        Portfolio
+      </a>
     
+      <a href="http://theblog.benedictyu.cn/" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        Blog
+      </a>
+    
+      <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/about-me" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        About
+      </a>
+    
+      <a href="/Users/yuzhifei/myzone/product/郁智飞简历-工具类产品经理.pdf" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        Resume
+      </a>
+    
+    <!-- <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a> -->
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
       
-        <a href="http://theblog.benedictyu.cn/" class="menu" target="_blank">
-          Blog
-        </a>
-      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      竹本一世
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      你好，我是一名产品经理。我致力于让所有人类都能拥有良好生活。我关注设计、数据、技术和商业。
+    </div>
+    
+      <div class="mt-8 text-center md:text-left">
+        <a
+          href="benedict.yu@hotmail.com" 
+          arget="_blank"
+          class="text-sm bg-yellow-50 dark:bg-indigo-500 dark:text-gray-700 font-semibold px-4 py-2 inline-block yellow-btn transition-fast rounded"
+        >发封邮件给我</a>
+      </div>
+    
+    
+      <div class="mt-8 flex items-center">
+        
+          <div class="text-gray-500 mr-2">
+            其他联系方式 👉
+          </div>
+        
+        
+          
+        
+          
+            
+              <a href="benedict.yu@hotmail.com" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-mail-line"></i>
+              </a>
+            
+          
+        
+          
+            
+              <a href="https://github.com/Ben9706" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-github-line"></i>
+              </a>
+            
+          
+        
+          
+        
+          
+        
+          
+            
+              <a href="https://www.zhihu.com/people/benedict-yu" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
+                <i class="ri-zhihu-line"></i>
+              </a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
     
   </div>
-  <div class="social-container">
-    
+  <!-- <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://ben9706.github.io/benedictyu.portfolio.github.io/images/avatar.png?v=1595846489976" alt="竹本一世" width="100%" height="100%">
+  </div> -->
+</header>
       
-        <a href="https://github.com/Ben9706" target="_blank">
-          <i class="ri-github-line"></i>
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/hello-gridea/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          企业 B 端系统
         </a>
-      
-    
-      
-    
-      
-    
-      
-        <a href="https://www.zhihu.com/people/yu-zhi-fei-78" target="_blank">
-          <i class="ri-zhihu-line"></i>
-        </a>
-      
-    
-      
-    
-  </div>
-</div>
-
-    
-        <div class="post-container">
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  Think different
-  <a class="rss" href="https://ben9706.github.io/benedictyu.portfolio.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-07-12</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        <p>为企业内部做管理系统。</p>
 
       </div>
+      <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/hello-gridea/" class="btn">
+        了解更多
+      </a>
     </div>
-  </body>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/qi-che-yin-pin-xi-tong/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          汽车音频系统
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-06-21</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        如何在车载设备中将推荐可视化？
+现实挑战
+在实际开发过程中，汽车的系统基于安卓，而安卓的机型繁多，且比起手机，还涉及到横屏竖屏的区别。这种投入大大超过前期规划。
+
+      </div>
+      <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/qi-che-yin-pin-xi-tong/" class="btn">
+        了解更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/yin-pin-lei-app/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          音频类 App
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-07-27</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        text
+
+      </div>
+      <a href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/yin-pin-lei-app/" class="btn">
+        了解更多
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  🚀 For All Mankind 🚀
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://ben9706.github.io/benedictyu.portfolio.github.io/media/scripts/main.js"></script>
+</body>
+
 </html>
