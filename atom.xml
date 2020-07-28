@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ben9706.github.io/benedictyu.portfolio.github.io</id>
     <title>竹本一世</title>
-    <updated>2020-07-27T10:44:42.906Z</updated>
+    <updated>2020-07-28T14:23:08.380Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ben9706.github.io/benedictyu.portfolio.github.io"/>
     <link rel="self" href="https://ben9706.github.io/benedictyu.portfolio.github.io/atom.xml"/>
-    <subtitle>building……</subtitle>
+    <subtitle>“每天我都会发现十个新问题并陷入沉思，其中九个已经有其他人解决了，还有一个，也许一百年后都没有人知道答案。”</subtitle>
     <logo>https://ben9706.github.io/benedictyu.portfolio.github.io/images/avatar.png</logo>
     <icon>https://ben9706.github.io/benedictyu.portfolio.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 竹本一世</rights>
+    <entry>
+        <title type="html"><![CDATA[Building…]]></title>
+        <id>https://ben9706.github.io/benedictyu.portfolio.github.io/post/building/</id>
+        <link href="https://ben9706.github.io/benedictyu.portfolio.github.io/post/building/">
+        </link>
+        <updated>2020-07-28T14:21:59.000Z</updated>
+    </entry>
 </feed>
