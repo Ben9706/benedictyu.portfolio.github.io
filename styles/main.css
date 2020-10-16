@@ -120,41 +120,58 @@ a:not([class]):hover {
         }
       }
     
-      .border-dotted {
+      .md\:pt-64 {
+    padding-top: 10rem;
+}
+
+
+/*删除首页右侧边距*/
+.md\:pr-16 {
+    padding-right: 0rem;
+}
+
+/*首页间隔*/
+.md\:py-32 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.markdown>table td {
+    padding: .5rem;
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+.border-dotted {
     border-style: solid;
 }
 
-nav {
-    font-weight: bold;
-    font-size: 15px;
-    flex-shrink: 0;
-    display: block;
+
+/*链接的效果*/
+a:not([class]) {
+text-decoration: none;
+    color: black;
+    background: rgba(245,215,110,0.5);
+    transition: all linear .2s;
+    text-decoration: none;
+    border-bottom-style: none;
+    border-bottom-width: 0rem;
 }
 
-/*修改文章字号样式*/
-.text-5xl {
-    font-size: 40px;
-}
-
-.markdown>blockquote>p, .markdown>p, p.markdown {
-    font-size: 16px;
-    margin-top: 1.5rem;
-    color: #4E616C;
-}
-
-.markdown>ul:not(.list-none) li {
-    font-size: 16px;
-    color: #4E616C;
-    position: relative;
-    padding-left: 1.25rem;
-}
-
-.markdown>h2, h2.markdown {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    color: #000;
-    line-height: 1;
-    font-weight: 600;
-    font-size: 24 px;
+/*粗体字效果*/
+.markdown>p strong::before, .markdown>ul strong::before {
+    display: inline-block;
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    position: absolute;
+    background-color: #ffd602;
+    opacity: .3;
+    content: " ";
+    width: 0%;
+    height: 0%;
+    left: 4px;
+    top: -4px;
+    z-index: -1;
+    border-radius: .4rem;
 }
     
